@@ -35,7 +35,7 @@ body {
 .instagram-wrapper {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     width: 50%;
     height: 100vh;
 }
@@ -128,7 +128,7 @@ body {
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .app-download {
@@ -156,7 +156,8 @@ body {
         background-color: var(--cor-fundo-dark);
     }
     .instagram-wrapper {
-        width: 90%;
+        width: 100%;
+        justify-content: center;
     }
     .instagram-phone {
         display: none;
@@ -166,7 +167,17 @@ body {
     }
     .group {
         border: 1px solid transparent;
+        margin: 0;
     }
+
+    .download {
+        flex-wrap: wrap;     
+    }
+
+    .app-download {
+        margin-bottom: 0.4rem;
+    }
+
     .get-app {
         color: var(--cor-caixas);
     }
